@@ -7,5 +7,6 @@ public interface EventMapper {
 	public List<Event> findAll();
 	
 	public void insertEvent(Event event);
-
+	
+	public int deleteEvent(int eventId);
 }

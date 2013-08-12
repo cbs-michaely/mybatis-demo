@@ -20,6 +20,8 @@ public class App
 
     	try {
         	EventMapper eventMapper = session.getMapper(EventMapper.class);
+//        	for(int i = 48; i < 52; i++)
+//        		System.out.println(eventMapper.deleteEvent(i));
         	Event event = new Event();
     	    event.setUser("kermit");
     	    event.setProcess_id("55555333");
